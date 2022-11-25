@@ -171,3 +171,178 @@ header {
     background-color:#EBF1FA;
     padding: 5px;
  }
+
+ 
+.newsletter {
+    text-align: center;
+    background-image: url("/assets/images/newsletter.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0px;
+  }
+  
+  .newsletter h2 {
+    color: #fff;
+  }
+  .newsletter input {
+    padding: 5px 50px;
+    border-radius: 20px;
+    border: 1px solid #888;
+    margin-top: 10px;
+    outline: none;
+  }
+  
+  .newsletter button {
+    padding: 5px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #ff5722;
+    color: #fff;
+    border: 2px solid #ff5722;
+    text-transform: uppercase;
+    transition: 0.3s;
+  }
+  
+  .newsletter button:hover {
+    transform: scale(1.1);
+  }
+
+  
+  .brands-img img {
+    height: 200px;
+    width: auto;
+  }
+
+  
+.iconss {
+    margin-top: 50px;
+    border: 1px solid #888;
+  }
+  
+  .mobile-tab {
+    background-color: #000;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    transition: 0.3s;
+    margin-top: 30px;
+    box-shadow: 0.9px 0.9px 5px 3px #888;
+  }
+  
+  .mobile-tab i {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    padding-top: 30px;
+  }
+  
+  .tab-heading {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 25px;
+    padding-bottom: 50px;
+  }
+  
+  .mobile-tab:hover {
+    background-color: #ff5722;
+    transform: scale(1.1);
+  }
+  
+  .mobile-tab_outer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  
+.con {
+    height: 3px;
+    width: 15%;
+    background-color: red;
+    margin-bottom: 30px;
+  }
+  
+  .contact {
+    background-color: #000;
+  }
+  
+  .contact h4 {
+    color: #fff;
+  }
+  
+  .contact i {
+    color: #fff;
+  }
+  
+  .address {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .address h6 {
+    color: #fff;
+  }
+  
+  .address p {
+    color: #888;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .fb-icons {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222222;
+    margin-top: 30px;
+    transition: 0.2s;
+    border-radius: 50%;
+    box-shadow: 0.7px 0.5px 5px 3px #ff5722;
+  }
+  
+  .fb-icons:hover {
+    background-color: #ff5722;
+    box-shadow: 0.7px 0.5px 5px 3px #fff;
+  }
+  
+  .services {
+    background-color: #222222;
+  }
+  
+  .services h3 {
+    color: #fff;
+  }
+  
+  .cities ul li {
+    margin: 8px 0px;
+    list-style-type: none;
+  }
+  
+  .cities ul li a {
+    color: #888;
+    transition: 0.2s;
+  }
+  
+  .cities ul li a:hover {
+    color: #ff5722;
+    list-style-type: circle;
+  }
+  
+  footer {
+    background-color: #ff5722;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  

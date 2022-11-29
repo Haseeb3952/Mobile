@@ -11,6 +11,8 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+
+
 h1,
 h6 {
   margin: 0%;
@@ -23,6 +25,12 @@ p {
 a {
   text-decoration: none;
 }
+
+.navbar {
+  padding-top: 0;
+}
+
+
 
 header {
   background-color: #ff5722;
@@ -47,6 +55,7 @@ header {
   animation: 0.5s infinite animate;
 }
 
+ 
 .logo {
   display: flex;
   align-items: center;
@@ -54,6 +63,10 @@ header {
   gap: 10px;
 }
 
+.desktop_logo a img {
+  height: 50px !important;
+  width: 50px !important;
+}
 .logo i {
   font-size: 70px;
   color: #ff5722;
@@ -75,6 +88,14 @@ header {
   border: 2px solid #ff5722;
   margin-top: 30px;
   outline: none;
+}
+
+.heading a {
+  color: #ff3e04;
+}
+
+.mobile-logo {
+  color: #ff3e04 !important;
 }
 
 .devices {
@@ -149,6 +170,8 @@ nav li {
   color: #ff5722;
 }
 
+
+
 .device-box {
   border-radius: 10px;
   border: 1px solid #ddd;
@@ -186,7 +209,7 @@ nav li {
 }
 
 .mobile:hover {
-  transform: scale(1.03);
+  transform: scale(1.03) !important;
 }
 
 .mobile:hover button {
@@ -395,3 +418,6 @@ footer {
   color: #fff;
   text-align: center;
 }
+
+
+ 

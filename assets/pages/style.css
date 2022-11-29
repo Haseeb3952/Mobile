@@ -186,7 +186,7 @@ nav li {
 }
 
 .mobile:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .mobile:hover button {

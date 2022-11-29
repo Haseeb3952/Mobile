@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -8,7 +8,7 @@ body {
   padding: 0%;
   max-width: 100vw;
   overflow-x: hidden;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 h1,
@@ -31,17 +31,17 @@ header {
   color: #fff;
 }
 
-  @keyframes animate {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.06);
-    }
-    100% {
-      transform: scale(1);
-    }
+@keyframes animate {
+  0% {
+    transform: scale(1);
   }
+  50% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
 .heading h2 {
   animation: 0.5s infinite animate;
@@ -105,7 +105,7 @@ header {
   transition: 0.5s;
 }
 
-.icon i:hover{
+.icon i:hover {
   scale: 1.5;
 }
 
@@ -150,7 +150,7 @@ nav li {
 }
 
 .company li a:hover {
-    color: #ff5722;
+  color: #ff5722;
 }
 
 .device-box {
@@ -217,6 +217,7 @@ nav li {
   letter-spacing: 1px;
   font-weight: 600;
   margin-bottom: 5px;
+  box-shadow: 0.9px 0.9px 10px 2px rgb(233, 230, 230);
 }
 
 .mobile button:hover {
@@ -257,6 +258,11 @@ nav li {
 
 .newsletter button:hover {
   transform: scale(1.1);
+}
+
+.items_images img {
+  height: 200px;
+  width: 200px;
 }
 
 .brands-img img {
@@ -301,6 +307,7 @@ nav li {
 .mobile-tab:hover {
   background-color: #ff5722;
   transform: scale(1.1);
+  box-shadow: 0.9px 0.9px 5px 3px rgb(185, 115, 115);
 }
 
 .mobile-tab_outer {

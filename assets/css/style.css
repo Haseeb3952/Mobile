@@ -177,7 +177,7 @@ nav li {
 }
 
 .category:hover {
-  scale: 1.05;
+  scale: 1.03;
 }
 
 .mobile {
@@ -190,7 +190,7 @@ nav li {
 }
 
 .mobile:hover {
-  transform: scale(1.04);
+  transform: scale(1.03);
 }
 
 .mobile:hover button {

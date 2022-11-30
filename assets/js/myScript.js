@@ -1,5 +1,5 @@
  
-confirm("Do you want to leave our Site")   
+
 var btn = $('#button');
 
 $(window).scroll(function() {
